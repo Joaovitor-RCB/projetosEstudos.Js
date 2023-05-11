@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #FFD900;
+        height: 118px;
+}
+header #logo {
+    width: 202px;
+    height: 63px;
+    margin-top: 27px;
+    margin-left: 58px;
+}
+#reviva{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #514988;
+    width: 100%;
+}
+#reviva h1{
+    font-family: 'Verdana';
+    font-size: 70px;
+    color: #F3C61F;
+    margin-bottom: 30px;
+}
+#reviva h2{
+    font-family: 'Verdana';
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+}
+#reviva p{
+    font-family: Verdana;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 92px;
+    color:white;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+#cronometro{
+    display: flex;
+    justify-content: space-around;
+}
+#cronometro div {
+    display: flex;
+}
+#cronometro div h1{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 70px;
+    color:#514988;
+    font-family: 'Verdana';
+}
+#arley{
+    width: 100%;
+    padding: 15px;
+}
+#arley img{
+    width: 100%;
+}
+#arley h2{
+    font-size: 30px;
+    font-family: 'Verdana';
+    color: #E33881;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer button{
+    width: 596px;
+    height: 148px;
+    margin-top: 85px;
+    background: #514988;
+    border-radius: 20px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+}
+footer button:hover{
+    background-color: #303030;
+    cursor: pointer;
+}
+#dias p{
+    color: #F3C61F;
+    font-size: 27px;
+    font-family: 'Verdana';
+    text-align: center;
+}
