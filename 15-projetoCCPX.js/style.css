@@ -60,18 +60,20 @@ section{
     width: 100%;
     padding: 15px;
 }
-#arley img{
+#arley video{
     width: 100%;
 }
 #arley h2{
     font-size: 30px;
     font-family: 'Verdana';
     color: #E33881;
+    margin-left: 20px;
 }
 footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 38px;
 }
 footer button{
     width: 596px;
@@ -87,8 +89,9 @@ footer button{
     color: white;
 }
 footer button:hover{
-    background-color: #303030;
+    background-color: #FFD900;
     cursor: pointer;
+    border: 0px;
 }
 #dias p{
     color: #F3C61F;
