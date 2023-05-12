@@ -99,3 +99,6 @@ footer button:hover{
     font-family: 'Verdana';
     text-align: center;
 }
+.sombra{
+    box-shadow: 10px 10px 10px 10px grey;
+}
