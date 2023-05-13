@@ -69,13 +69,13 @@ section{
     color: #E33881;
     margin-left: 20px;
 }
-footer{
+section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 38px;
 }
-footer button{
+section button{
     width: 596px;
     height: 148px;
     margin-top: 85px;
@@ -88,8 +88,8 @@ footer button{
     font-size: 42px;
     color: white;
 }
-footer button:hover{
-    background-color: #FFD900;
+section button:hover{
+    color: #FFD900;
     cursor: pointer;
     border: 0px;
 }
@@ -101,4 +101,22 @@ footer button:hover{
 }
 .sombra{
     box-shadow: 10px 10px 10px 10px grey;
+}
+.cardSelecionado{
+    border: 5px solid green;
+}
+input{
+    padding: 0px 20px;
+    background-color: #514988;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    align-items: center;
+}
+#forms{
+    background-color: #F3C61F;
 }

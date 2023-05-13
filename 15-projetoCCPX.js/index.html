@@ -45,20 +45,54 @@
             <video controls loop><source src="img/Arlequina.mp4" type="video/mp4"></video>
         </div>
     </section>
-    <footer>
+    <section>
         <div id="dias">
             <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
             <div>
-                <img src="img/quinta.svg" onmouseover="cardsombra('#quinta')" onmouseout="cardsombra('#quinta')" id="quinta">
-                <img src="img/sexta.svg" onmouseover="cardsombra('#sexta')" onmouseout="cardsombra('#sexta')" id="sexta">
-                <img src="img/sabado.svg" onmouseover="cardsombra('#sabado')" onmouseout="cardsombra('#sabado')" id="sabado">
-                <img src="img/domindo.svg" onmouseover="cardsombra('#domingo')" onmouseout="cardsombra('#domingo')" id="domingo">
+                <img
+                class="cardIngresso"
+                onclick="selectCard('#quinta')"
+                src="img/quinta.svg"
+                onmouseover="cardsombra('#quinta')"
+                onmouseout="cardsombra('#quinta')"
+                id="quinta"
+                />
+                <img
+                class="cardIngresso"
+                onclick="selectCard('#sexta')"
+                src="img/sexta.svg"
+                onmouseover="cardsombra('#sexta')"
+                onmouseout="cardsombra('#sexta')"
+                id="sexta"
+                />
+                <img
+                class="cardIngresso"
+                src="img/sabado.svg"
+                onclick="selectCard('#sabado')"
+                onmouseover="cardsombra('#sabado')"
+                onmouseout="cardsombra('#sabado')"
+                id="sabado"
+                />
+                <img
+                class="cardIngresso"
+                src="img/domindo.svg"
+                onclick="selectCard('#domingo')"
+                onmouseover="cardsombra('#domingo')"
+                onmouseout="cardsombra('#domingo')"
+                id="domingo"
+                />
             </div>
         </div>
         <div>
-            <button>GARANTA O SEU!</button>
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
-    </footer>
+    </section>
+    <div id="forms">
+        <form action="https://www.gogle.com">
+            <input type="email" placeholder="Seu email" required>
+            <input type="submit"/>
+        </form>
+    </div>
     <script src="script.js"></script>
     <script src="main.js"></script>
 </body>

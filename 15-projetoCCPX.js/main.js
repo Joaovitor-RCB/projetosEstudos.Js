@@ -1,6 +1,6 @@
 function addRedBorder(id)
 {
-    element = document.querySelector("#" + id);
+    element = document.querySelector(`#${id}`);
     element.style.border = "5px solid red";
 }
 
@@ -9,21 +9,23 @@ function cardsombra(selector){
     var element = document.querySelector(selector);
     element.classList.toggle("sombra")
 }
-/*
+// função verifica codigo tecla pressionada 
+
 function verificaTecla(){
 
-    document.addEventListener('keydown', (event) =>{
+    document.addEventListener("keydown", (event) =>{
         var name = event.Key;
         var code = event.code;
         alert(`Tecla pressionada ${name} \r\n Key code value: ${code}`);
     }, false);
 }
 
-verificaTecla();
-*/
+//verificaTecla();
+
+
 function addKeyboardEventListeners(){
 
-    document.addEventListener('keydown', (event) =>{
+    document.addEventListener("keydown", (event) => {
 
         var ingresso1 = document.getElementById("quinta");
         var ingresso2 = document.getElementById("sexta");
@@ -64,5 +66,20 @@ function addKeyboardEventListeners(){
         }
     }, false );
 }
-addKeyboardEventListeners();
 
+//função selecionar ingressos usando Arrow Functions 
+
+const ingressos = [];
+
+selectCard = (selector) => {
+    var element = document.querySelector(selector);
+    element.classList.toggle("cardSelecionado");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector)
+}
+
+showSelectedCards = () => {
+   if(ingressos.length > 0) alert("ingressos selecionados: " + ingressos);
+}
+
+addKeyboardEventListeners();
