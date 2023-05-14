@@ -3,13 +3,9 @@ body{
 }
 header{
     background-color: #FFD900;
-        height: 118px;
 }
-header #logo {
-    width: 202px;
-    height: 63px;
-    margin-top: 27px;
-    margin-left: 58px;
+#logo {
+    padding: 5px;
 }
 #reviva{
     display: flex;
@@ -50,6 +46,13 @@ section{
     display: flex;
 }
 #cronometro div h1{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 70px;
+    color:#514988;
+    font-family: 'Verdana';
+}
+#cronometro div P{
     margin-bottom: 5px;
     margin-top: 20px;
     font-size: 70px;

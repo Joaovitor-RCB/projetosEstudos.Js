@@ -46,7 +46,6 @@ function addKeyboardEventListeners(){
             ingresso2.classList.toggle("sombra");
             ingresso3.classList.remove("sombra");
             ingresso4.classList.remove("sombra");
-
         }
 
         if(code == 'Digit3'){
@@ -54,7 +53,6 @@ function addKeyboardEventListeners(){
             ingresso2.classList.remove("sombra");
             ingresso3.classList.toggle("sombra");
             ingresso4.classList.remove("sombra");
-
         }
 
         if(code == 'Digit4'){
@@ -62,7 +60,6 @@ function addKeyboardEventListeners(){
             ingresso2.classList.remove("sombra");
             ingresso3.classList.remove("sombra");
             ingresso4.classList.toggle("sombra");
-
         }
     }, false );
 }
